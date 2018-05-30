@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="SimpleSmokeTest">
+	<listeners>
+		<listener class-name="by.htp.shim.utils.Listener"></listener>
+	</listeners>
+	<test name="BookingTest">
+
+		<classes>
+			<class name="by.htp.shim.SearchFlightsTest" />
+			<class name="by.htp.shim.SearchHotelsTest" />
+		</classes>
+
+	</test>
+</suite>
